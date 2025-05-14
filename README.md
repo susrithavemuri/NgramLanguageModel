@@ -18,10 +18,12 @@ Install the required Python packages:
 pip install -r requirements.txt
 
 
-▶️ How to Run
+## ▶️ How to Run
+
 streamlit run app.py
 
-📂 File Structure
+## 📂 File Structure
+
 ngram_language_model/
 │
 ├── app.py                # Main Streamlit application
@@ -29,16 +31,17 @@ ngram_language_model/
 ├── requirements.txt      # Python dependencies
 └── long_sample_corpus.txt# Example text corpus
 
-📚 Smoothing Techniques
+
+## 📚 Smoothing Techniques
 Laplace Smoothing: Adds 1 to every bigram count to avoid zero probabilities.
 Good-Turing Smoothing: Recalculates probability based on the frequency of frequency counts.
 
-🧪 Example Test Bigrams
+## 🧪 Example Test Bigrams
 ("language", "models")
 ("speech", "recognition")
 ("deep", "learning") (Unseen bigram)
 
-🧠 Educational Goals
+## 🧠 Educational Goals
 This project is great for:
 Understanding the mechanics of N-gram models
 Seeing the effects of smoothing
